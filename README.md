@@ -40,6 +40,8 @@ A typical log output looks like the following:
 [46981] ! Detected parent died, dying
 ```
 
+**Note: When removing the sleep from the Controller, the phased restart workers as expected**
+
 ## Instructions to reproduce
 
 ```
