@@ -1,4 +1,4 @@
-This repository was created to reproduce an issue with puma phased restarts.
+This repository was created to reproduce an [issue](https://github.com/puma/puma/issues/635) with puma phased restarts.
 
 ## Description
 When performing a phased restart whilst there is a long running request in progress (20 seconds in this example), 
